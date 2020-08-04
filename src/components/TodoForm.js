@@ -8,7 +8,7 @@ const TodoForm = (props) => {
         <form onSubmit={submitForm}>
         <input 
           type="text" 
-          placeholder="Enter what you want to do..." 
+          placeholder="Enter what you want to do" 
           value={todo} 
           onChange={handleTodoChange} 
         />
